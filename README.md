@@ -1,17 +1,17 @@
-#Tela de cadastro de usuários
+# Tela de cadastro de usuários
 
 **Tecnologias utilizadas: HTML, CSS e JavaScript**
 
 ![Logo](img01.PNG)
 
-###O que esse projeto faz?
+### O que esse projeto faz?
 
 A finalidade do projeto é mostrar um formulário de cadastro com validações para auxiliar o usuário na hora do preenchimento, com o objetivo de evitar que ele insira dados inválidos/incorretos.
 
 A validação é bem simples e tem como objetivo guiar o usuário na hora de preencher os campos.
 Se ele estiver mal intensionado, a validação que tenho no projeto não será o suficiente para impedi-lo de usar o sistema incorretamente. Para garantir melhor segurança, seriam necessárias validações do lado do servidor.
 
-###Passeando pelo código
+### Passeando pelo código
 
 Nas primeiras linhas foram feitas as declarações das variáveis que foram utilizadas ao longo do projeto.
 
@@ -42,7 +42,7 @@ Em seguida, tem a declaração do método responsável por limpar as validaçõe
 
 Após isso, foram atribuidas as variáveis de tipo let para 'pegar' as infomações do formulário, para definir o evento do botão 'Registrar' e para a criação do Validator. 
 
-###Concluindo...
+### Concluindo...
 
 O projeto, apesar de simples, contribuiu imensamente para o meu aprendizado. 
 Desde a criação e estilização da tela até a finalização do código, pude revisar e aprender muitos conceitos.
