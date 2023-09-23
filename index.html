@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <form id="register-form">
+            <div id="title">
+                <h1>Cadastre-se</h1>
+            </div>
+            <div class="input">
+                <label for="email" class="only-sr">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" data-required data-email-validate>
+            </div>
+            <div class="input">
+                <label for="name-register" class="only-sr">Nome</label>
+                <input type="text" name="name-register" id="name-register" placeholder="Nome" data-required data-only-letters data-max-length="50" >
+            </div>
+            <div class="input">
+                <label for="pass-register" class="only-sr">Senha</label>
+                <i id="passwordRegister" class="fa-solid fa-eye"></i>
+                <input type="password" name="pass-register" id="pass-register" placeholder="Senha" data-required data-password-validate>
+            </div>
+            <div class="input">
+                <label for="pass-register-confirm" class="only-sr">Confirme a senha</label>
+                <i id="passwordConfirm" class="fa-solid fa-eye"></i>
+                <input type="password" name="pass-register-confirm" id="pass-register-confirm" placeholder="Confirme sua senha" data-required data-equal="pass-register">
+            </div>
+            <div class="input">
+                <input type="checkbox" name="agreement" id="agreement" data-required>
+                <label for="agreement" id="agreement-label">Li e aceito os <a href="#">Termos de uso</a></label>
+            </div>
+            <div id="input-btn">
+                <input type="submit" id="submit-btn" value="Registrar">
+            </div>
+        </form>
+    </div>
+    <p class="error-validation template"></p>
+</body>
+</html>
