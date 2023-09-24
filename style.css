@@ -130,6 +130,12 @@ body::before {
     text-decoration: underline;
 }
 
+#input-btn {
+    display: flex;
+    margin-top: 1rem;
+    margin-right: 17px;
+}
+
 #submit-btn {
     border-radius: 5rem;
     width: 9rem;
@@ -138,7 +144,7 @@ body::before {
     cursor: pointer;
     transition: 0.5s;
     border: none;
-    margin: 10px 0 10px 0;
+    margin: auto;
     transition: 0.4s;
 }
 
